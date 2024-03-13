@@ -19,11 +19,14 @@ chmod +x /usr/local/bin/docker-compose
 # Install Node.js 16 using NodeSource
 #curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 # Install Node.js 18 using NodeSource
-#curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-
-
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 apt-get install -y nodejs
+
+# Install Npm
 apt-get install -y npm
+
+# Install pip
+apt-get install python3-pip -y
 
 # Criar pasta do projeto
 mkdir -p /projeto
