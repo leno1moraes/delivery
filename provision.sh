@@ -28,6 +28,9 @@ apt-get install -y npm
 # Install pip
 apt-get install python3-pip -y
 
+# Install libcairo2-dev
+apt-get install libcairo2-dev -y
+
 # Criar pasta do projeto
 mkdir -p /projeto
 

@@ -4,9 +4,9 @@ chardet==4.0.0
 dbus-python==1.2.16
 distro-info==1.0+deb11u1
 Django==4.2.11
-gyp==0.1
 httplib2==0.18.1
 idna==2.10
+pycairo==1.26.0
 pycurl==7.43.0.6
 PyGObject==3.38.0
 PySimpleSOAP==1.16.2
