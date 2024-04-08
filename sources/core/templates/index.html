@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-    <h1>{{ empresa }}</h1>
-
-    <h3>{{ recado }}</h3>
+{% block content %}
 
     <table border="1">
     <tr>
@@ -26,5 +17,4 @@
     {% endfor %}
     </table>
 
-</body>
-</html>
+{% endblock content %}
